@@ -6,6 +6,7 @@ using System.Drawing;
 using System.Linq;
 using System.Text;
 using System.Windows.Forms;
+using MC1.C_;
 
 namespace MC1
 {
@@ -14,6 +15,11 @@ namespace MC1
         public Form1()
         {
             InitializeComponent();
+        }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+            Student sv1 = new Student();
         }
     }
 }

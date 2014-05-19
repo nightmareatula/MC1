@@ -7,5 +7,7 @@ namespace MC1.C_
 {
     class Student
     {
+        public String Name;
+
     }
 }
