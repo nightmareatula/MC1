@@ -19,9 +19,9 @@ namespace MC1
 
         private void Form1_Load(object sender, EventArgs e)
         {
-            Student sv1 = new Student();
-            sv1.Name = "Ngu nhất năm";
-            
+            Student SV = new Student();
         }
+
+        
     }
 }
