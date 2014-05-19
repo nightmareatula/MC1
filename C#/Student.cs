@@ -7,7 +7,15 @@ namespace MC1.C_
 {
     class Student
     {
-        public String Name;
-
+        private string _name;
+        public string Name;
+        get
+        {
+            return "Sinh viên" this._name;
+        }
+        set
+        {
+            this._name = value;
+        }
     }
 }
