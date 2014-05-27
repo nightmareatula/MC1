@@ -19,7 +19,8 @@ namespace MC1
 
         private void Form1_Load(object sender, EventArgs e)
         {
-            Student SV = new Student();
+            DatabaseConnect ketnoi = new DatabaseConnect();
+            MessageBox.Show(ketnoi.StatusConnect + ":)))))))" + ketnoi.ErrorConnect);
         }
 
         

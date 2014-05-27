@@ -13,7 +13,7 @@ namespace MC1.C_
         {
             get
             {
-                return "Gamer" + this._name;
+                return "Gamer " + this._name;
             }
             set
             {
@@ -24,7 +24,7 @@ namespace MC1.C_
         private string _password;
         public string Password
         {
-            get { return.this._password; }
+            get { return this._password; }
             set 
                 {
                     HashAlgorithm hassword = new MD5CryptoServiceProvider();
